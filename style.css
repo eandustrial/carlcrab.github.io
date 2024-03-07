@@ -64,10 +64,10 @@ a {
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+	flex-direction: column;
+  justify-content: space-between;
   min-height: 100vh;
-  background-color: #0d0d0d;
+  background-color: #000000;
 }
 
 .container__progressbars {
