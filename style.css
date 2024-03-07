@@ -6,7 +6,7 @@
   white-space: nowrap;
   overflow: hidden;
 }
-.css-typing p:nth-child(1) {
+.css-typing q {
   width: 7.3em;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
@@ -14,7 +14,7 @@
   animation-fill-mode: forwards;
 }
 
-.css-typing p:nth-child(2) {
+.css-typing q {
   width: 11.5em;
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
@@ -25,7 +25,7 @@
   animation-fill-mode: forwards;
 }
 
-.css-typing p:nth-child(3) {
+.css-typing z {
   width: 7.3em;
   opacity: 0;
   -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
