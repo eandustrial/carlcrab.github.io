@@ -6,7 +6,7 @@
   white-space: nowrap;
   overflow: hidden;
 }
-.css-typing slow {
+.css-typing p1 {
   border-right: .15em solid white;
   font-family: "Courier";
   font-size: 14px;
@@ -20,7 +20,7 @@
   animation-fill-mode: forwards;
 }
 
-.css-typing long {
+.css-typing p2 {
   border-right: .15em solid white;
   font-family: "Courier";
   font-size: 14px;
@@ -37,7 +37,7 @@
   animation-fill-mode: forwards;
 }
 
-.css-typing fast {
+.css-typing p3 {
   border-right: .15em solid white;
   font-family: "Courier";
   font-size: 14px;
@@ -54,7 +54,7 @@
   animation-fill-mode: forwards;
 }
 
-.css-typing button {
+.css-typing p4 {
   border-right: .15em solid white;
   font-family: "Courier";
   font-size: 14px;
