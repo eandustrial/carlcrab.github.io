@@ -15,7 +15,7 @@
   white-space: nowrap;
   overflow: hidden;
   width: 7.3em;
-  -webkit-animation: type 2s steps(40, end);
+  -webkit-animation: type 5s steps(40, end);
   animation: type 2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -30,7 +30,7 @@
   overflow: hidden;
   width: 11.5em;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
+  -webkit-animation: type2 5s steps(40, end);
   animation: type2 2s steps(40, end);
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
