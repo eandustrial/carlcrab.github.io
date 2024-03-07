@@ -66,6 +66,8 @@
   display:table;
   background-color: white;
 
+}
+
 @keyframes type {
   0% {
     width: 0;
