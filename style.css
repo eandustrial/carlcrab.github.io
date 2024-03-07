@@ -1,12 +1,18 @@
 .css-typing p {
-  border-right: .15em solid orange;
+  border-right: .15em solid white;
   font-family: "Courier";
   font-size: 14px;
   color: green;
   white-space: nowrap;
   overflow: hidden;
 }
-.css-typing q {
+.css-typing slow {
+  border-right: .15em solid white;
+  font-family: "Courier";
+  font-size: 14px;
+  color: green;
+  white-space: nowrap;
+  overflow: hidden;
   width: 7.3em;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
@@ -14,7 +20,13 @@
   animation-fill-mode: forwards;
 }
 
-.css-typing q {
+.css-typing long {
+  border-right: .15em solid white;
+  font-family: "Courier";
+  font-size: 14px;
+  color: green;
+  white-space: nowrap;
+  overflow: hidden;
   width: 11.5em;
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
@@ -25,7 +37,13 @@
   animation-fill-mode: forwards;
 }
 
-.css-typing z {
+.css-typing fast {
+  border-right: .15em solid white;
+  font-family: "Courier";
+  font-size: 14px;
+  color: blue;
+  white-space: nowrap;
+  overflow: hidden;
   width: 7.3em;
   opacity: 0;
   -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
@@ -35,6 +53,18 @@
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
+
+.css-typing button {
+  border-right: .15em solid white;
+  font-family: "Courier";
+  font-size: 14px;
+  color: blue;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 7.3em;
+  opacity: 0;
+  display:table;
+  background-color: white;
 
 @keyframes type {
   0% {
